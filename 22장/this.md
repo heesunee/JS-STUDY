@@ -168,7 +168,7 @@ const getName = person.getName;
 console.log(getName()); // '' (window.name)
 ```
 
-this에 바인딩될 객체는 호출 시점에 결정된다.
+this에 바인딩될 객체는 호출하는 시점에 결정된다.
 
 프로토타입 메서드 내부에서 사용된 this 도 해당 메서드를 호출한 객체에 바인딩 된다.
 
